@@ -27,11 +27,11 @@ icon.run_detached()
 
 while state == 1:
     print(1)
-    antiSpam = antiSpam + 1
     # Check to see if it is charging
     while battery.power_plugged == 1 and state == 1:
         # Check if battery is > 80%
         if percentage >= 80:
+            antiSpam = antiSpam + 1
             toast("Assistant", "Battery is at or above 80%!", scenario='incomingCall')
             print("waiting1")
             state = 0
