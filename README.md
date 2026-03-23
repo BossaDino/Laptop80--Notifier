@@ -2,6 +2,8 @@
 
 PowerReader is a lightweight Python utility that monitors your Windows laptop's battery charging status. It runs quietly in the system tray and sends a Windows 11 toast notification when your battery reaches 80% while plugged in, helping you unplug in time to preserve your battery's long-term health.
 
+(Executable version coming soon!)
+
 ## Features
 
 * **Custom Notifications:** Uses native Windows 11 toast notifications with an "incoming call" scenario for high visibility.
